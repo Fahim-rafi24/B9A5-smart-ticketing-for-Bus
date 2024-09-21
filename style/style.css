@@ -19,8 +19,6 @@
     /* set height & weight */
     margin: auto;
     margin-top: 25px;
-    height: 80vh;
-    width: 80vw;
     /* show img */
     background-image: url("../media/images/banner.png");
     background-position: center;
