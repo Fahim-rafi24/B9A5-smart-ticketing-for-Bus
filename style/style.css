@@ -53,6 +53,14 @@
     background-color: #1DD100;
 }
 
+.make-booked-ticket-green{
+    background-color: #1DD100 !important;
+}
+
+/* ---------------------------------------------------------- */
+
+
+
 @media screen and (min-width: 765px){
     #seat-button-list li{
         margin: 10px;
@@ -72,3 +80,6 @@
         border-radius: 10px;
     }
 }
+
+
+
