@@ -274,7 +274,7 @@
                           placeholder="Have any coupon?"
                           class="bg-transparent outline-none flex-1 text-gray-700"
                         />
-                        <button id="coupon-apply" class="bg-[#1DD100] text-white px-4 py-2 rounded-lg">
+                        <button id="coupon-apply" onclick="getCouponCode()" class="bg-[#1DD100] text-white px-4 py-2 rounded-lg">
                           Apply
                         </button>
                     </div>
@@ -290,6 +290,7 @@
                         Passenger Name<span class="text-red-500">*</span>
                       </label>
                       <input
+                      id="passenger-name"
                         type="text"
                         placeholder="Enter your name"
                         class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-500"
@@ -300,7 +301,8 @@
                         Phone Number<span class="text-red-500">*</span>
                       </label>
                       <input
-                        type="text"
+                      id="phone-number"
+                        type="number"
                         placeholder="Enter your phone number"
                         class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-500"
                       />
@@ -310,12 +312,13 @@
                         Email ID
                       </label>
                       <input
+                      id="email-id"
                         type="email"
                         placeholder="Enter your email id"
                         class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-500"
                       />
                     </div>
-                    <button class="w-full bg-[#1DD100] text-white py-3 rounded-lg font-bold hover:bg-green-500">
+                    <button onclick="nextPageBtn()" class="w-full bg-[#1DD100] text-white py-3 rounded-lg font-bold hover:bg-green-500">
                       Next
                     </button>
                     <div class="flex justify-between text-gray-500 mt-4">
@@ -326,7 +329,7 @@
             </section>
         </div>
     </main>
-    <script src="js/utility.js"></script>
+    <!-- js -->
     <script src="js/first.js"></script>
 </body>
 </html>
